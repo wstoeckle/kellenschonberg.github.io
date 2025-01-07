@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kellen Schonberg Consulting</title>
+    <title>Kellen Schonberg | Technical Program Management Consulting</title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -75,7 +75,7 @@
 
         .hero p {
             font-size: 1.2rem;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
         }
 
@@ -87,7 +87,7 @@
 
         .services {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
@@ -97,6 +97,18 @@
             padding: 2rem;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .credentials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .credential-item {
+            text-align: center;
+            padding: 1rem;
         }
 
         .contact-form {
@@ -145,45 +157,74 @@
 <body>
     <header>
         <nav>
-            <h2>KS Consulting</h2>
+            <h2>Kellen Schonberg</h2>
             <ul>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Kellen Schonberg Consulting</h1>
-        <p>Strategic solutions for modern business challenges</p>
+        <h1>Technical Program Management Excellence</h1>
+        <p>Leveraging experience from Apple, NASA, and innovative startups to deliver transformative program management solutions for complex technical initiatives</p>
     </section>
 
     <section id="services" class="section">
-        <h2>Our Services</h2>
+        <h2>Consulting Services</h2>
         <div class="services">
             <div class="service-card">
-                <h3>Strategy Consulting</h3>
-                <p>Comprehensive business strategy development and implementation guidance.</p>
+                <h3>Product Development Strategy</h3>
+                <p>Expert guidance in product roadmap development, commercialization strategy, and go-to-market planning, backed by experience leading innovative products from concept to launch at Apple and CreateMe.</p>
             </div>
             <div class="service-card">
-                <h3>Process Optimization</h3>
-                <p>Streamline operations and improve efficiency across your organization.</p>
+                <h3>Program Management Infrastructure</h3>
+                <p>Implementation of comprehensive program management frameworks including JIRA workflows, Confluence documentation, and OKR/KPI systems for optimal project execution and tracking.</p>
             </div>
             <div class="service-card">
-                <h3>Digital Transformation</h3>
-                <p>Navigate the digital landscape and modernize your business processes.</p>
+                <h3>Technical Program Optimization</h3>
+                <p>Streamline engineering processes and resource allocation while maintaining budget constraints, drawing from experience managing complex programs at major technology companies.</p>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>With years of experience in business transformation and strategic planning, we help organizations achieve their full potential. Our approach combines industry expertise with innovative solutions to drive measurable results.</p>
+    <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <p>With over a decade of experience spanning aerospace, consumer electronics, and innovative startups, I bring a unique blend of technical expertise and program management excellence. Key achievements include:</p>
+        <ul style="margin-top: 1rem; margin-left: 2rem;">
+            <li>Led iPhone 12 Clear Case development at Apple, reducing timeline by 40%</li>
+            <li>Managed deployment of 3D modeling platform for Williams Sonoma at Outward Inc</li>
+            <li>Developed autonomous drone systems and CubeSat configurations at NASA</li>
+            <li>Spearheaded commercialization of innovative HPEP Fracture System at Petram Technologies</li>
+        </ul>
+    </section>
+
+    <section id="credentials" class="section">
+        <h2>Credentials</h2>
+        <div class="credentials">
+            <div class="credential-item">
+                <h3>PMP Certified</h3>
+                <p>Project Management Professional</p>
+            </div>
+            <div class="credential-item">
+                <h3>CSM</h3>
+                <p>Certified Scrum Master</p>
+            </div>
+            <div class="credential-item">
+                <h3>B.S. Aerospace Engineering</h3>
+                <p>University of Washington</p>
+            </div>
+            <div class="credential-item">
+                <h3>Published Researcher</h3>
+                <p>NASA Technical Reports</p>
+            </div>
+        </div>
     </section>
 
     <section id="contact" class="section">
-        <h2>Contact Us</h2>
+        <h2>Contact</h2>
         <form class="contact-form">
             <input type="text" placeholder="Name" required>
             <input type="email" placeholder="Email" required>
@@ -193,7 +234,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Kellen Schonberg Consulting. All rights reserved.</p>
+        <p>&copy; 2025 Kellen Schonberg. All rights reserved.</p>
     </footer>
 </body>
 </html>
